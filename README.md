@@ -56,17 +56,19 @@ For Container Page : ESS-Time-Off-My Team
 ``[Employee Code]``: This should be a valid employee code.\
 ``[Employee Name]``: Must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).\
 ``[Leave Type]``: Must be one of the leave types from the ``Leave Type`` column in the `Leave Type for Leave Calendar` file (case sensitive)\
-``[Leave From Date]``: Must be equal to or before `[Leave To Date]`\
-``[Leave To Date]``: Must be equal to or after `[Leave From Date]`\
-``[Leave From Session]``: Must be equal to ``[Leave To Session]``\
-``[Leave To Session]``: Must be equal to ``[Leave From Session]``\
+``[Leave From Date]``: Must be equal to or before `[Leave To Date]`. This should be in the format dd MMMM yyyy (e.g., 20 March 2025).\
+``[Leave To Date]``: Must be equal to or after `[Leave From Date]`. This should be in the format dd MMMM yyyy (e.g., 20 March 2025).\
+``[Leave From Session]``: Must be equal to ``[Leave To Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
+``[Leave To Session]``: Must be equal to ``[Leave From Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
 `[Leave Units]`: The number of leave units being taken (e.g., 0.50)\
 ``[Leave Reason]``: Optional field
 
-
+#### Special Requirements for Leave Alteration Email Requests
+For leave alteration requests to work, there must already be an existing leave created. The alteration request must reference the original leave details (Leave Type, Original Start Date, Original End Date).
 
 add section saying name has to be from the name for calendar list
 
 
 give me high level overview
 then go through each main 3 child flows
+
