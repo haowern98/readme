@@ -53,8 +53,10 @@ For Rejection : NO / CANCEL / REJECT
 For Container Page : ESS-Time-Off-My Team
 ```
 
-**[Employee Code]**: This should be a valid employee code.\
-**[Employee Name]**: Must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).
+``[Employee Code]``: This should be a valid employee code.\
+``[Employee Name]``: Must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).\
+``[Leave Type]``: Must be one of the leave types from the ``Leave Type`` column in the `Leave Type for Leave Calendar` file (case sensitive)\
+
 
 add section saying name has to be from the name for calendar list
 
