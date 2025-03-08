@@ -61,10 +61,17 @@ For Container Page : ESS-Time-Off-My Team
 ``[Leave From Session]``: Must be equal to ``[Leave To Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
 ``[Leave To Session]``: Must be equal to ``[Leave From Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
 `[Leave Units]`: The number of leave units being taken (e.g., 0.50)\
-``[Leave Reason]``: Optional field
+``[Leave Reason]``: Optional field - reason of leave
 
 #### Special Requirements for Leave Alteration Email Requests
-For leave alteration requests to work, there must already be an existing leave created. The alteration request must reference the original leave details (Leave Type, Original Start Date, Original End Date).
+For leave alteration requests to work, there must already be an existing leave created. Additionally, the leave alteration email must include the same leave application number and refer to the same employee code as the original request.
+
+## Workflow
+
+
+
+
+
 
 add section saying name has to be from the name for calendar list
 
