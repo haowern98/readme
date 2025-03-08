@@ -14,11 +14,11 @@ The subject line must be in the following format:
 ```
 Action Required: Leave [req type] for [Name]
 ```
-Where [req type] can be one of the following:
+Where ``[req type]`` can be one of the following:
 ``
-creation\
-alteration\
-cancellation
+Creation
+Alteration
+Cancellation
 ``
 add section saying name has to be from the name for calendar list
 
