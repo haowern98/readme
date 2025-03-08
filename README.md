@@ -23,7 +23,7 @@ Alteration
 Cancellation
 ``` 
 
-and ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
+and ``[Name]`` must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).
 
 #### Email Body
 The email body must be in the following format:
