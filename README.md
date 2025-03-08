@@ -16,8 +16,8 @@ Action Required: Leave [req type] for [Name]
 ```
 Where [req type] can be one of the following:
 
-creation
-alteration
-cancellation
+creation\
+alteration\
+cancellation\
 
 add section saying name has to be from the name for calendar list
