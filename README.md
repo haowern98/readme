@@ -15,7 +15,7 @@ The subject line must be in the following format:
 ```
 Action Required: Leave [req type] for [Name]
 ```
-Where ``[req type]`` can be one of the following:
+Where ``[req type]`` must be one of the following (case sensitive):
 
 ```
 Creation
