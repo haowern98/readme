@@ -15,18 +15,34 @@ The subject line must be in the following format:
 ```
 Action Required: Leave [req type] for [Name]
 ```
-Where ``[req type]`` can be one of the following:
-
-```Creation
-Alteration
-Cancellation```
-
-and ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
+Where ``[req type]`` can be one of the following:``"Creation", "Alteration", "Cancellation"`` and ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
 
 #### Email Body
 The email body must be in the following format:
 ```
-Action Required: Leave [req type] for [Name]
+A Leave request has been assigned to you for your approval.
+
+Employee Code: [Employee Code]
+Employee Name: [Employee Name]
+Leave Type: [Leave Type]
+Leave Application No: [Leave Application No]
+Leave From: [Leave From Date]
+Leave To: [Leave To Date]
+Leave From Session: [Leave From Session]
+Leave To Session: [Leave To Session]
+Leave Units: [Leave Units]
+Leave Reason: [Leave Reason]
+
+Manager and employee are to ensure that the leave request and approval is in line with the prevailing company policy
+
+Thanks and Regards
+
+Action through Email:
+For Approval : YES / OK / ACCEPT / APPROVE
+For Rejection : NO / CANCEL / REJECT
+(Reply with the above key words in the first line of the mail)
+
+For Container Page : ESS-Time-Off-My Team
 ```
 
 add section saying name has to be from the name for calendar list
