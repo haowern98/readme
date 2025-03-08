@@ -5,7 +5,7 @@ This Power Automate flow automates the process of handling leave request emails.
 
 ## Usage
 ### Triggering the Flow
-The flow is triggered automatically when a reply to a new leave request email is sent and contains one of the following words: ``YES, OK, ACCEPT, or APPROVE``. Note that only one of these exact words can be used in the reply email; variations such as ``APPROVED`` are not accepted. Additionally, the reply must contain only one of these words and no other text. Reply must also be in the ``Sent items`` folder and not somehow sent to another folder the leave request email must also be in the ``Inbox`` email folder
+The flow is triggered automatically when a reply to a new leave request email is sent and contains one of the following words (case sensitive): ``YES, OK, ACCEPT, or APPROVE``. Note that only one of these exact words can be used in the reply email; variations such as ``APPROVED`` are not accepted. Additionally, the reply must contain only one of these words and no other text. Reply must also be in the ``Sent items`` folder and not somehow sent to another folder the leave request email must also be in the ``Inbox`` email folder
 
 ### Leave Request Email Format
 For the flow to correctly extract information, the leave request emails must follow a specific format. Below are the details of the required format:
