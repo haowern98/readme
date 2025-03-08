@@ -17,8 +17,7 @@ Action Required: Leave [req type] for [Name]
 Where ``[req type]`` can be one of the following:
 ``
 Creation / Alteration / Cancellation
-``\
-And ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
+`` and ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
 
 
 
