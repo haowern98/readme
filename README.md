@@ -9,13 +9,21 @@ The flow is triggered automatically when a reply to a new leave request email is
 
 ### Leave Request Email Format
 For the flow to correctly extract information, the leave request emails must follow a specific format. Below are the details of the required format:
-\
+
 #### Subject Line
 The subject line must be in the following format:
 ```
 Action Required: Leave [req type] for [Name]
 ```
-Where ``[req type]`` can be one of the following:``"Creation", "Alteration", "Cancellation"`` and ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
+Where ``[req type]`` can be one of the following:
+
+```
+Creation
+Alteration
+Cancellation
+``` 
+
+and ``[Name]`` must be one of the names from the ``Name for Leave Calendar`` file.
 
 #### Email Body
 The email body must be in the following format:
