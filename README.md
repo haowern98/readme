@@ -56,6 +56,13 @@ For Container Page : ESS-Time-Off-My Team
 ``[Employee Code]``: This should be a valid employee code.\
 ``[Employee Name]``: Must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).\
 ``[Leave Type]``: Must be one of the leave types from the ``Leave Type`` column in the `Leave Type for Leave Calendar` file (case sensitive)\
+``[Leave From Date]``: Must be equal to or before `[Leave To Date]`\
+``[Leave To Date]``: Must be equal to or after `[Leave From Date]`\
+``[Leave From Session]``: Must be equal to ``[Leave To Session]``\
+``[Leave To Session]``: Must be equal to ``[Leave From Session]``\
+`[Leave Units]`: The number of leave units being taken (e.g., 0.50)\
+``[Leave Reason]``: Optional field
+
 
 
 add section saying name has to be from the name for calendar list
