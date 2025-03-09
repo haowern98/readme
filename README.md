@@ -68,7 +68,7 @@ For leave alteration requests to work, there must already be an existing leave c
 
 ## Workflow
 
-
+https://github.com/haowern98/readme/blob/main/Parent%20Email%20Parsing%20Flow-Flowchart.jpg
 
 
 
