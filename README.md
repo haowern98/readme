@@ -53,15 +53,15 @@ For Rejection : NO / CANCEL / REJECT
 For Container Page : ESS-Time-Off-My Team
 ```
 
-``[Employee Code]``: This should be a valid employee code.\
-``[Employee Name]``: Must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).\
-``[Leave Type]``: Must be one of the leave types from the ``Leave Type`` column in the `Leave Type for Leave Calendar` file (case sensitive)\
-``[Leave From Date]``: Must be equal to or before `[Leave To Date]`. This should be in the format dd MMMM yyyy (e.g., 20 March 2025).\
-``[Leave To Date]``: Must be equal to or after `[Leave From Date]`. This should be in the format dd MMMM yyyy (e.g., 20 March 2025).\
-``[Leave From Session]``: Must be equal to ``[Leave To Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
-``[Leave To Session]``: Must be equal to ``[Leave From Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
-`[Leave Units]`: The number of leave units being taken (e.g., 0.50)\
-``[Leave Reason]``: Optional field - reason of leave
+* ``[Employee Code]``: This should be a valid employee code.\
+* ``[Employee Name]``: Must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).\
+* ``[Leave Type]``: Must be one of the leave types from the ``Leave Type`` column in the `Leave Type for Leave Calendar` file (case sensitive)\
+* ``[Leave From Date]``: Must be equal to or before `[Leave To Date]`. This should be in the format dd MMMM yyyy (e.g., 20 March 2025).\
+* ``[Leave To Date]``: Must be equal to or after `[Leave From Date]`. This should be in the format dd MMMM yyyy (e.g., 20 March 2025).\
+* ``[Leave From Session]``: Must be equal to ``[Leave To Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
+* ``[Leave To Session]``: Must be equal to ``[Leave From Session]``. Can only be ``"I Session", "II Session", "Whole Day"``\
+* `[Leave Units]`: The number of leave units being taken (e.g., 0.50)\
+* ``[Leave Reason]``: Optional field - reason of leave
 
 #### Special Requirements for Leave Alteration Email Requests
 For leave alteration requests to work, there must already be an existing leave created. Additionally, the leave alteration email must include the same leave application number and refer to the same employee code as the original request.
