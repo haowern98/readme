@@ -66,6 +66,8 @@ For Container Page : ESS-Time-Off-My Team
 #### Special Requirements for Leave Alteration Email Requests
 For leave alteration requests to work, there must already be an existing leave created. Additionally, the leave alteration email must include the same leave application number and refer to the same employee code as the original request.
 
+<div style="page-break-after: always;"></div>
+
 ## Workflow
 
 The flowchart below demonstrates how the entire flow works by illustrating the parent email parsing flow.
