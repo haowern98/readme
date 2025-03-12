@@ -89,7 +89,7 @@ The flowchart below illustrates the parent email parsing flow.
 
 #### Child Flow - Leave Creation
 
-![](https://github.com/haowern98/readme/blob/main/Parent%20Email%20Parsing%20Flow-Flowchart.drawio.svg)
+![](https://github.com/haowern98/readme/blob/main/leave_creation_child_flowchart.drawio.svg)
 
 #### Child Flow - Leave Alteration
 
