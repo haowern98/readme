@@ -97,5 +97,6 @@ The flowchart below illustrates the parent email parsing flow.
 
 #### Child Flow - Leave Cancellation
 
+![](https://github.com/haowern98/readme/blob/main/leave_cancellation_flowchart.drawio.svg)
 
 
