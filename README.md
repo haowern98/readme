@@ -77,6 +77,8 @@ This workflow consists of a parent email parsing flow that processes incoming em
 
 The Workflow section has been divided into the following subsections, each labeled for easy reference:
 
+[Parent Email Parsing Flow](#parent-email-parsing-flow)
+
 #### Parent Email Parsing Flow
 The flowchart below illustrates the parent email parsing flow.
 
