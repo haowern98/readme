@@ -93,7 +93,11 @@ The flowchart below illustrates the parent email parsing flow.
 
 <ins>Overview</ins>
 
-This flow is resposnsible for the processing of leave creation requests received via email by extracting relevant information from the email body. It uses the conversation ID, `ConvoID` that was extracted in the `Parent Email Parsing Flow` to locate the specific email, parses the content to retrieve necessary details, and converts the leave requestor's full name into a display name that includes both the short name and leave type. Finally, the flow creates a new entry in an Excel file and sends a response back to the originating Power App or flow, confirming successful completion.
+This flow is resposnsible for the processing of leave creation requests received via email and creating a new leave entry in the Leave Excel file 
+
+<ins>Implementation</ins>
+
+This flow takes in the conversation ID, `ConvoID` that was extracted in the `Parent Email Parsing Flow` and passes it to the `Child Flow - Get Email with ConvoID` child flow to locate the specific email. Then, passes the output of `Child Flow - Get Email with ConvoID ` into the `Email Parsing Method ` child flow to parse the email body content using the to retrieve necessary details. Next, convertion of the leave requestor's full name into a display name that includes both the short name and leave type using `Child Flow - Name Conversion`. Finally, the flow creates a new entry in an Excel file and sends a response back to the originating Power App or flow, confirming successful completion.
 
 #### Child Flow - Leave Alteration
 
