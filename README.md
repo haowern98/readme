@@ -73,7 +73,7 @@ For leave alteration and cancellation requests to work, there must already be an
 ## Workflow
 
 #### Introduction
-This entire workflow features a parent email parsing flow that processes incoming emails and routes them to specific child flows: `Child Flow - Leave Creation`, `Child Flow - Leave Alteration`, and `Child Flow - Leave Cancellation`, depending on the content of the email. The routing is facilitated by a `switch` operator, which directs the flow to one of the three distinct flows, each designed to handle different types of requests. Within each of these child flows, there are additional sub-flows that perform essential tasks, such as locating and extracting the leave request email body along with the conversation ID, parsing the extracted email body for relevant details and converting the full name into a display name that showcases both the short name and leave type of the requestor. 
+This entire workflow serves as a comprehensive solution for managing leave requests by automating the handling of incoming emails. The parent flow efficiently identifies and classifies each request, directing it to the appropriate child flow based on predefined criteria. Within these child flows, various sub-flows perform key functions, including the extraction of email content, parsing of relevant information, and the transformation of names into a more user-friendly format, thereby enhancing the overall efficiency of the leave management process.
 
 The Workflow section of this report has been divided into the following subsections, each labeled for easy reference:
 
@@ -86,11 +86,11 @@ The Workflow section of this report has been divided into the following subsecti
 
 <ins>Overview</ins>
 
-This workflow processes incoming leave request emails, routing them to the appropriate child flows for creation, alteration, or cancellation based on the subject content.
+This flow processes incoming leave request emails, routing them to the appropriate child flows for creation, alteration, or cancellation based on the subject content.
 
 <ins>Implementation</ins>
 
-This entire workflow features a parent email parsing flow that processes incoming emails and routes them to specific child flows: `Child Flow - Leave Creation`, `Child Flow - Leave Alteration`, and `Child Flow - Leave Cancellation`, depending on the content of the email.
+This flow is the parent flow that processes incoming emails and routes them to specific child flows: `Child Flow - Leave Creation`, `Child Flow - Leave Alteration`, and `Child Flow - Leave Cancellation`, depending on the content of the email.
 
 The routing is facilitated by a `switch` operator, which directs the flow to one of the three distinct flows, each designed to handle different types of requests.
 
@@ -113,8 +113,6 @@ Next, convertion of the leave requestor's full name into a display name that inc
 A high-level overview of the `Child Flow - Leave Creation` is provided in the flowchart below.
 
 ![](https://github.com/haowern98/readme/blob/main/leave_creation_child_flowchart.drawio.svg)
-
-The flow contains the following variables:
 
 #### Child Flow - Leave Alteration
 
