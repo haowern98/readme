@@ -102,7 +102,7 @@ A high-level overview of the `Parent Email Parsing Flow` is provided in the flow
 
 <ins>Overview</ins>
 
-This flow is resposnsible for the processing of leave creation requests received via email and creating a new leave entry in the Leave Excel file 
+This flow is resposnsible for the processing of leave creation requests received via email and creating a new leave entry in the Leave Excel file.
 
 <ins>Implementation</ins>
 
@@ -115,6 +115,14 @@ A high-level overview of the `Child Flow - Leave Creation` is provided in the fl
 ![](https://github.com/haowern98/readme/blob/main/leave_creation_child_flowchart.drawio.svg)
 
 #### Child Flow - Leave Alteration
+
+<ins>Overview</ins>
+
+This flow is resposnsible for the processing of leave alteration requests received via email and updating the leave entry in the Leave Excel file.
+
+<ins>Implementation</ins>
+
+This flow takes in the conversation ID, `ConvoID` that was extracted in the `Parent Email Parsing Flow` and passes it to the `Child Flow - Get Email with ConvoID` child flow to locate the specific email. The flow then passes the output of `Child Flow - Get Email with ConvoID ` into the `Email Parsing Method ` child flow to parse the email body content using the to retrieve necessary details.
 
 ![](https://github.com/haowern98/readme/blob/main/leave_alteration_childflow.drawio.svg)
 
