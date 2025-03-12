@@ -130,6 +130,16 @@ A high-level overview of the `Child Flow - Leave Alteration` is provided in the 
 
 #### Child Flow - Leave Cancellation
 
+<ins>Overview</ins>
+
+This flow is resposnsible for the processing of leave deletion requests received via email and deleting the leave entry in the Leave Excel file.
+
+<ins>Implementation</ins>
+
+This flow takes in the conversation ID, `ConvoID` that was extracted in the `Parent Email Parsing Flow` and passes it to the `Child Flow - Get Email with ConvoID` child flow to locate the specific email.
+
+A high-level overview of the `Child Flow - Leave Cancellation` is provided in the flowchart below.
+
 ![](https://github.com/haowern98/readme/blob/main/leave_cancellation_flowchart.drawio.svg)
 
 
