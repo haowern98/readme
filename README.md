@@ -77,9 +77,9 @@ This workflow consists of a parent email parsing flow that processes incoming em
 
 The Workflow section has been divided into the following subsections, each labeled for easy reference:
 
-[Parent Email Parsing Flow](#parent-email-parsing-flow)
-[Child Flow - Leave Creation](#child-flow---leave-creation)
-[Parent Email Parsing Flow](#parent-email-parsing-flow)
+[Parent Email Parsing Flow](#parent-email-parsing-flow)\
+[Child Flow - Leave Creation](#child-flow---leave-creation)\
+[Parent Email Parsing Flow](#parent-email-parsing-flow)\
 [Parent Email Parsing Flow](#parent-email-parsing-flow)
 
 #### Parent Email Parsing Flow
