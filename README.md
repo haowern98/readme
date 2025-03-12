@@ -93,6 +93,8 @@ The flowchart below illustrates the parent email parsing flow.
 
 #### Child Flow - Leave Alteration
 
+![](https://github.com/haowern98/readme/blob/main/leave_alteration_childflow.drawio.svg)
+
 #### Child Flow - Leave Cancellation
 
 
