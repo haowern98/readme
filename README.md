@@ -25,6 +25,8 @@ Cancellation
 
 and ``[Name]`` must be one of the full names from the ``Full Name`` column in the ``Name for Leave Calendar`` file (case sentitive).
 
+<div style="page-break-after: always;"></div>
+
 #### Email Body
 The email body must be in the following format:
 ```
