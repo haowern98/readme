@@ -75,8 +75,9 @@ For leave alteration and cancellation requests to work, there must already be an
 #### Overview
 This workflow consists of a parent email parsing flow that processes incoming emails and routes them to specific child flows based on the content of the email. The routing is managed using a switch operator, which directs the flow to one of three distinct flows, each handling different types of requests.
 
-The Design and Implementation section has been divided into the following subsections, each labeled for easy reference:
+The Workflow section has been divided into the following subsections, each labeled for easy reference:
 
+#### Parent Email Parsing Flow
 The flowchart below illustrates the parent email parsing flow.
 ![](https://github.com/haowern98/readme/blob/main/Parent%20Email%20Parsing%20Flow-Flowchart.drawio.svg)
 
