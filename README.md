@@ -87,11 +87,11 @@ The flowchart below illustrates the parent email parsing flow.
 
 ![](https://github.com/haowern98/readme/blob/main/Parent%20Email%20Parsing%20Flow-Flowchart.drawio.svg)
 
-This flow begins by initializing variables to store content extracted from the email body, followed by inputting `ConvoID` to identify the specific email. It then triggers a child flow to locate the email associated with the `ConvoID`, followed by another child flow that parses the email body to extract relevant details. A subsequent child flow converts the full name into a display name that includes both the short name and leave type. Finally, the workflow creates a new leave entry in an Excel file and responds to the originating Power App or flow, indicating that the process has been successfully completed.
-
 #### Child Flow - Leave Creation
 
 ![](https://github.com/haowern98/readme/blob/main/leave_creation_child_flowchart.drawio.svg)
+
+This flow begins by initializing variables to store content extracted from the email body, followed by inputting `ConvoID` to identify the specific email. It then triggers a child flow to locate the email associated with the `ConvoID`, followed by another child flow that parses the email body to extract relevant details. A subsequent child flow converts the full name into a display name that includes both the short name and leave type. Finally, the workflow creates a new leave entry in an Excel file and responds to the originating Power App or flow, indicating that the process has been successfully completed.
 
 #### Child Flow - Leave Alteration
 
