@@ -124,6 +124,8 @@ This flow is resposnsible for the processing of leave alteration requests receiv
 
 This flow takes in the conversation ID, `ConvoID` that was extracted in the `Parent Email Parsing Flow` and passes it to the `Child Flow - Get Email with ConvoID` child flow to locate the specific email. The flow then passes the output of `Child Flow - Get Email with ConvoID ` into the `Email Parsing Method ` child flow to parse the email body content using the to retrieve necessary details.
 
+A high-level overview of the `Child Flow - Leave Alteration` is provided in the flowchart below.
+
 ![](https://github.com/haowern98/readme/blob/main/leave_alteration_childflow.drawio.svg)
 
 #### Child Flow - Leave Cancellation
