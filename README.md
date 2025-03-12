@@ -89,8 +89,6 @@ The flowchart below illustrates the parent email parsing flow.
 
 #### Child Flow - Leave Creation
 
-![](https://github.com/haowern98/readme/blob/main/leave_creation_child_flowchart.drawio.svg)
-
 <ins>Overview</ins>
 
 This flow is resposnsible for the processing of leave creation requests received via email and creating a new leave entry in the Leave Excel file 
