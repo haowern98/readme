@@ -79,8 +79,8 @@ The Workflow section has been divided into the following subsections, each label
 
 [Parent Email Parsing Flow](#parent-email-parsing-flow)\
 [Child Flow - Leave Creation](#child-flow---leave-creation)\
-[Parent Email Parsing Flow](#parent-email-parsing-flow)\
-[Parent Email Parsing Flow](#parent-email-parsing-flow)
+[Child Flow - Leave Alteration](#child-flow---leave-alteration)\
+[Child Flow - Leave Cancellation](#child-flow---leave-cancellation)
 
 #### Parent Email Parsing Flow
 The flowchart below illustrates the parent email parsing flow.
